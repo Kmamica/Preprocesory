@@ -1,0 +1,16 @@
+:root {
+    /* definica zmiennej w czystym CSS */
+    --primary-color: darkgrey;
+}
+
+body {
+    height: 100vh;
+    /* background-color: black; */
+    background-color: var(--primary-color);
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+}
